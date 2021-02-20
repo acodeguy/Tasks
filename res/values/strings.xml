@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tasks</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string-array name="repeat_type_array">
+        <item>None</item>
+        <item>Daily</item>
+        <item>Weekdays</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+        <item>Annually</item>
+    </string-array>
+    
+     <string-array name="mute_times_array">
+        <item value="0">None</item>
+        <item value="0">Daily</item>
+        <item>Weekdays</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+        <item>Annually</item>
+    </string-array>
+    
+    <string name="about_app_string">Written by Raoul A. Dean of deantopia.com [2014]</string>
+
+</resources>

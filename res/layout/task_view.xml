@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text_view_detail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mute time:" />
+
+    <Spinner
+        android:id="@+id/spinner_task_view_mute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button_task_view_"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Mute task for" />
+
+    <Button
+        android:id="@+id/button_task_view_mark_complete"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Mark complete" />
+
+    <Button
+        android:id="@+id/button_task_view_delete_task"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete task" />
+
+    <Button
+        android:id="@+id/button_task_view_close_window"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Close" />
+
+</LinearLayout>
